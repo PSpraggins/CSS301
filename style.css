@@ -9,25 +9,98 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+
+/***************************** NAVBAR ****************************/
 #nav {
     flex-basis: 100%;
-    border: 1px solid red;
+}
+#nav nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.nav-left  {
+    display: flex;
+    padding-right: 50px;
+    flex-shrink: 1;
+}
+.tlc-name{
+    line-height: .1;
+    color: #0164B2;
+    font-family: 'Bree Serif', serif;
+    padding-left: 10px;
+}
+
+#logo-img {
+    padding: 10px;
+    
 }
 ul {
     display: flex;
     text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+    flex-basis: 50%;
+    align-items: center;
 }
 li{
     list-style-type: none;
-    flex-basis: 25%;
+    flex-basis: auto;
 }
 li a{
     text-decoration: none;
+    color: #0164B2;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+
+/***************************** HERO SECTION ****************************/
+#hero {
+    flex-basis: 100%;
+    border: 1px solid green;   
+    background: linear-gradient(
+        rgba(0, 29, 70, .6),
+        rgba(0, 29, 70, .6)
+        ),
+        url("images/dogs.jpg");
+    background-size: cover;
+    height: 92vh;
+    background-position: 50% 50%;
+    position: relative;
+}
+.hero-container {
+    margin: 95px auto;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+}
+.hero-container h1 {
+    font-size: 48px;
+    font-family: 'Bree Serif', serif;
+    letter-spacing: 4px;
+}
+.hero-container-bottom { 
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    letter-spacing: 1.5px;
+}
+
+/***************************** SIDEBAR SECTION ****************************/
 #sidebar {
     flex-basis: 20%;
     border: 1px solid blue;
 }
+
+
+/***************************** CONTENT SECTION ****************************/
 #content {
     flex-basis: 80%;
     border: 1px solid purple;
