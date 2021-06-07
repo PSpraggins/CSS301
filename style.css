@@ -58,8 +58,7 @@ li a{
 
 /***************************** HERO SECTION ****************************/
 #hero {
-    flex-basis: 100%;
-    border: 1px solid green;   
+    flex-basis: 100%;  
     background: linear-gradient(
         rgba(0, 29, 70, .6),
         rgba(0, 29, 70, .6)
@@ -96,12 +95,36 @@ li a{
 /***************************** SIDEBAR SECTION ****************************/
 #sidebar {
     flex-basis: 20%;
-    border: 1px solid blue;
+    padding: 30px;
 }
 
 
 /***************************** CONTENT SECTION ****************************/
 #content {
     flex-basis: 80%;
-    border: 1px solid purple;
+    padding: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#content p {
+    line-height: 1.6;
+}
+.img-box {
+    width: 230px;
+    height: 230px;
+}
+#img-box1 {
+    background-image: url("images/statue.jpg");
+    background-size: cover;
+}
+.image {
+    flex-basis: 20%;
+    text-align: center;
+    margin: 10px;
+}
+.part {
+    flex-basis: 60%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
