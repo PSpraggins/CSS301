@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>TLC Animal Shelter</title>
 </head>
@@ -13,17 +13,68 @@
     <div id="container">
         <div id="nav">
             <nav>
-                <img src="images/baidu_32.png" id="logo-img">
+                <div class="nav-left">
+                    <img src="images/baidu_32.png" id="logo-img">
+                    <div class="tlc-name">
+                        <h4>Tender Loving Care</h4>
+                        <h5>Animal Shelter</h5>
+                    </div>
+                </div>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="animals.html">Animals</a></li>
-                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="animals.html">Adoptable Puppies</a></li>
+                    <li><a href="adoption.html">Adoption Process</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </nav>
         </div>
-        <div id="sidebar"></div>
-        <div id="content"></div>
+        <div id="sidebar">
+            <h3>Shelter Updates:</h3>
+            <p>During the COVID-19 Pandemic, our hours have been shortened. Please call if you'd like to come later in the day. If interested in adopting, we ask that the latest you arrive is a half hour before closing.</p>
+        </div>
+        <div class="content">
+            <h1>Adoptable Puppies</h1>
+            <div class="row">
+                <div class="img">
+                    <img src="images/australianShepard.jpg" alt="Australian Shepard">
+                </div>
+                <div class="info">
+                    <p><b>Baboon</b></p>
+                    <p><b>Status:</b> Available</p>
+                    <p><b>Breed:</b> Australian Shepard</p>
+                    <p><b>Species/Sex:</b> Dog/Male</p>
+                    <p><b>Description:</b> Arrives 6/10 ETA 11:30AM Please do not call of message as this is all the information I have at this time. I won't have more info until day of arrival.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="img">
+                    <img src="images/beagle.jpg" alt="Beagle">
+                </div>
+                <div class="info">
+                    <p><b>Blue</b></p>
+                    <p><b>Status:</b> Available</p>
+                    <p><b>Breed:</b> Beagle</p>
+                    <p><b>Species/Sex:</b> Dog/Male</p>
+                    <p><b>Description:</b> Arrives 6/13 ETA 2:30PM Please do not call of message as this is all the information I have at this time. I won't have more info until day of arrival.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="img">
+                    <img src="images/labrador.jpg" alt="Labrador">
+                </div>
+                <div class="info">
+                    <p><b>Penny</b></p>
+                    <p><b>Status:</b> Pending Adoption</p>
+                    <p><b>Breed:</b> Labrador Retriever Mix</p>
+                    <p><b>Species/Sex:</b> Dog/Female</p>
+                    <p><b>Description:</b> Penny is pending adoption. Please take a look at some of our other available dogs. They are all so sweet!</p>
+                </div>
+            </div>
+
+        </div>
+        <footer>
+            ©2021 Spraggins Corp
+        </footer>
     </div>
 </body>
 </html>
