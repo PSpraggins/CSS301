@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="jquery_functions.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>TLC Animal Shelter</title>
@@ -13,6 +15,7 @@
     <div id="container">
         <div id="nav">
             <nav>
+
                 <div class="nav-left">
                     <img src="images/baidu_32.png" id="logo-img">
                     <div class="tlc-name">
@@ -20,12 +23,30 @@
                         <h5>Animal Shelter</h5>
                     </div>
                 </div>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="animals.html">Adoptable Puppies</a></li>
-                    <li><a href="adoption.html">Adoption Process</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
+                <div class="collapsed-menu">
+                    <a href="#">
+                        <img src="images/burger_menu.png" id="hamburger-menu">
+                    </a>
+                </div>
+                <div id="top-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="animals.html">Adoptable Puppies</a></li>
+                        <li><a href="adoption.html">Adoption Process</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div id="side-nav">
+                    <div class="menu-close">
+                        <a href="#">&#x2715;</a>
+                    </div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="animals.html">Adoptable Puppies</a></li>
+                        <li><a href="adoption.html">Adoption Process</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
         <div class="sidebar side">
