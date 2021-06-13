@@ -128,10 +128,10 @@ li a{
         ),
         url("images/dogs.jpg");
     background-size: cover;
-    height: 92vh;
+    height: 100vh;
     background-position: 50% 50%;
     position: relative;
-    margin-top: 70px;
+    
 }
 .hero-container {
     margin: 300px auto 100px;
