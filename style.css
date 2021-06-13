@@ -629,3 +629,27 @@ footer {
         display: none;
     }
 }
+
+@media (max-height: 760px){
+    #hero {
+        height: 600px;
+    }
+    .hero-container {
+        margin: 150px auto 75px;
+        
+    }
+    .nav-left{
+        flex-basis: 30%;
+    }
+}
+
+@media (max-height: 760px) and (max-width: 799px) {
+    .tlc-name {
+        display: none;
+    }
+}
+@media (max-height: 760px) and (min-width: 1285px) and (max-width: 1320px) {
+    .content-contact, .content {
+        flex-basis: 79%;
+    }
+}
